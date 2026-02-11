@@ -31,8 +31,10 @@ I used a **Gradient Boosting Regressor** from scikit-learn to forecast daily TSA
 
 The lag features turned out to be by far the most important. `lag7` alone accounted for roughly 65% of the model's predictive power, which makes intuitive sense - a Tuesday this week will look a lot like last Tuesday.
 
-**Future Features (If I had time)**
+### Future Features (If I Had Time)
+
 I actually had a ton of ideas about what features I could add, but didn't know how to (I'm fairly new to ML in general), and due to having very little time to work on this (very busy week), I was not able to. Here are some of the ideas I had:
+
 - `political events` - People are less likely to travel during war uncertainty or if they feel unsafe (such as war with Iran, reports of planes falling out of the sky, the government being closed and air traffic controllers aren't working, etc.)
 - `holidays` - this is pretty self explanatory, and is probably already implemented in the model you guys have
 - `large-scale events` - This was a little wildcard, but lots of people travel to certain places for things like the Olympics, Super Bowl, or World Cup (which is happening this year)
